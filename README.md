@@ -35,6 +35,12 @@ The user is able add new contacts to and address book to be viewed in list form.
     * User will be taken back to home page with contact added to contact list showing just the first and last name.
 
 * Input example:
+    * User click on a name link in the contact list
+
+* Output example:
+    * User will be taken to contact details page to include full name, address and phone#.
+
+* Input example:
     * User click on the Clear All Contacts button
 
 * Output example:
