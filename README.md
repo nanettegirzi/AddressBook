@@ -13,7 +13,7 @@ This program is a basic web application that allows the user to create new conta
 
 * Clone this repository to your desktop
 * Navigate to project folder on desktop
-* In terminal, inside project folder, type command "dotnet run"
+* In terminal, inside project folder, type command "dotnet resotore" "dotnet build", then "dotnet run"
 * Open browser and go to http://localhost:5000
 
 ## Specifications
