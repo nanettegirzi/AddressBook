@@ -1,0 +1,12 @@
+@{
+  Layout="Shared/_Layout.cshtml";
+}
+        <h1>@Model.GetFirstName() @Model.GetLastName()</h1>
+        <h3>@Model.GetAddress()</h3>
+        <h3>@Model.GetPhone()</h3>
+        <br>
+        <a href='/contacts/new'>Add another contact</a>
+        <br>
+        <br>
+        <a href='/'>View all contacts</a>
+    </body>
