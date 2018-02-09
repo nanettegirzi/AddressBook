@@ -27,7 +27,7 @@ namespace AddressBook.Controllers
         }
 
         [HttpPost("/contacts")]
-        public ActionResult Create()
+        public ActionResult CreateContact()
         {
             Contact newContact = new Contact (Request.Form["first-name"], Request.Form["last-name"], Request.Form["address"], Request.Form["phone"]);
 
