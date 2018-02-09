@@ -1,9 +1,19 @@
 .jumbotron {
     text-align: center;
-    background-color: black;
+    background-color: #8e8b8e;
     color: white;
 }
 
 body {
-    background-image: url("~/img/background.jpg");
+    background-image: url("../img/background.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+hr {
+    background-color: white;
+}
+
+a {
+    color: black;
 }
